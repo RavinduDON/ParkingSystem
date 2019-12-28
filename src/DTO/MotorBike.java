@@ -8,7 +8,7 @@ public class MotorBike extends Vehicle {
     public MotorBike() {
     }
 
-    public MotorBike(String id, String type, String brand, String entryTime, Date date, float engineCapacity) {
+    public MotorBike(String id, String type, String brand, String entryTime, String date, float engineCapacity) {
         super(id, type, brand, entryTime, date);
         this.engineCapacity = engineCapacity;
     }

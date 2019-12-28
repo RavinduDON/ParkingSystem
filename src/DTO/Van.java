@@ -8,7 +8,7 @@ public class Van extends Vehicle {
     public Van() {
     }
 
-    public Van(String id, String type, String brand, String entryTime, Date date, float cargoVol) {
+    public Van(String id, String type, String brand, String entryTime, String date, float cargoVol) {
         super(id, type, brand, entryTime, date);
         this.cargoVol = cargoVol;
     }

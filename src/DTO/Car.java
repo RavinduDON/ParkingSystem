@@ -9,7 +9,7 @@ public class Car extends Vehicle {
     public Car() {
     }
 
-    public Car(String id, String type, String brand, String entryTime, Date date, int numberOfDoors, String color) {
+    public Car(String id, String type, String brand, String entryTime, String date, int numberOfDoors, String color) {
         super(id, type, brand, entryTime, date);
         this.numberOfDoors = numberOfDoors;
         this.color = color;

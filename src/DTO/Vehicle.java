@@ -7,12 +7,12 @@ public abstract class Vehicle {
     private String type;
     private String brand;
     private String entryTime;
-    private Date date;
+    private String date;
 
     public Vehicle() {
     }
 
-    public Vehicle(String id, String type, String brand, String entryTime, Date date) {
+    public Vehicle(String id, String type, String brand, String entryTime, String date) {
         this.id = id;
         this.type = type;
         this.brand = brand;
@@ -52,11 +52,11 @@ public abstract class Vehicle {
         this.entryTime = entryTime;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }
