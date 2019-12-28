@@ -207,6 +207,7 @@ public class WestministerCarParkManager implements CarParkManager {
                     System.out.println(prb+"%");
                     break;
                 case 5:
+                    
                     break;
                 case 6:
                     String ed="";
